@@ -2324,7 +2324,7 @@ input, select, textarea {
 		.image.phone {
 			box-shadow: none;
 			border-radius: 0;
-			margin: 0 0 3em 0;
+			margin: 0 0 8em 0;
 			width: 13em;
 		}
 
@@ -2367,7 +2367,7 @@ input, select, textarea {
 					border-radius: 100%;
 					border: solid 2px rgba(255, 255, 255, 0.25);
 				}
-
+/*
 			.image.phone:before, .image.phone:after {
 				content: '';
 			}
@@ -2383,7 +2383,7 @@ input, select, textarea {
 				border-radius: 0 0 1em 1em;
 				border-top: 0;
 			}
-
+*/
 	.image {
 		box-shadow: 0 0 0 4px #ffffff, 0 0 0 5px #e6e6e6;
 	}
@@ -2929,7 +2929,7 @@ input, select, textarea {
 		}
 
 			.wrapper > .inner.alt > * {
-				border-top: solid 2px #eeeeee;
+				border-top: solid 0 #eeeeee;
 				margin-bottom: 0;
 				margin-top: 3em;
 				padding-top: 3em;
@@ -3611,8 +3611,8 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		background-color: #4696e5;
-		color: #d1e5f9;
+		background-color: #000000;
+		color: #ffffff;
 		padding: 4.5em 0 2.5em 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -3752,7 +3752,11 @@ input, select, textarea {
 			#header .image.phone {
 				box-shadow: none;
 			}
-
+				#header .image.phone .inner {
+					height: 225px;
+					overflow: hidden;
+					border-radius: 100%;
+				}
 				#header .image.phone .inner, #header .image.phone:before, #header .image.phone:after {
 					border-color: rgba(255, 255, 255, 0.25);
 				}
@@ -3800,7 +3804,7 @@ input, select, textarea {
 		#header a {
 			color: inherit;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
-			color: #ffffff;
+			color: #ea941d;
 		}
 
 		#header strong, #header b {
